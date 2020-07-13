@@ -1,0 +1,90 @@
+        .navbar {
+            position: relative;
+            z-index: 1;
+        }
+
+        .navbar-brand {
+            font-family: viga;
+            font-size: 32px;
+        }
+
+        .jumbotron {
+            background-image: url(img/bg.png);
+            background-size: cover;
+            height: 700px;
+        }
+
+        .jumbotron .container {
+            z-index: 1;
+            position: relative;
+        }
+
+        .aboutme .rounded-circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+        }
+        
+
+        .jumbotron::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+            position: absolute;
+            bottom: 0;
+        }
+
+        .jumbotron .display-4  {
+            color: white;
+            margin-top: 150px;s
+            font-weight: 200px;
+        }
+
+        .jumbotron .lead  {
+            color: white;
+            margin-top: auto;
+            font-weight: 200px;
+        }
+
+        span {
+            font-weight: 500;
+        }
+
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+        
+
+
+
+
+
+
+
+
+        /* Dekstop */
+        @media (min-width: 992px) { 
+
+            .nav-link {
+                text-transform: uppercase;
+                margin-right: 30px;
+            }
+            .nav-link:hover::after {
+                content: '';
+                display: block;
+                border-bottom: 2px solid orange;
+                padding-bottom: 2px;
+                margin-top: -4px;
+            }
+            .jumbotron {
+                margin-top: -75px;
+            }
+
+         
+   
+
+         
+        
+        }
