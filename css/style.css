@@ -167,6 +167,16 @@ ul.pricing-list li.price-tag-line a:hover {
   transition: all 1s;
 }
 
+#animation-about {
+  transition: all 1s;
+}
+
+#animation-about:hover {
+  margin-top: 25px;
+
+  transition: all 1s;
+}
+
 .main-services i {
   font-size: 46px;
 
