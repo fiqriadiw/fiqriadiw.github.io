@@ -1,3 +1,7 @@
+#contactus {
+  padding-bottom: 4rem;
+}
+
 section {
   padding-top: 5rem;
 }
@@ -140,6 +144,11 @@ ul.pricing-list li.price-tag-line a:hover {
 
 #judulharga {
   margin-top: 20px;
+}
+
+#judulcontact h2 {
+  margin-top: 20px;
+  font-size: 40px;
 }
 
 .main-services {
